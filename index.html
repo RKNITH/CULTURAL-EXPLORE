@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Story Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dynamic Story Builder</h1>
+        <div class="selection">
+            <label for="character">Choose a Character:</label>
+            <select id="character"></select>
+
+            <label for="setting">Choose a Setting:</label>
+            <select id="setting"></select>
+
+            <label for="plot">Choose a Plot:</label>
+            <select id="plot"></select>
+
+            <button id="generateStory">Generate Story</button>
+        </div>
+        <div class="story">
+            <h2>Your Story</h2>
+            <p id="storyText">Select options to create a story...</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
